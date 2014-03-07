@@ -1,0 +1,38 @@
+alu0100832884@student05:~$ ls la
+ls: no se puede acceder a la: No existe el archivo o el directorio
+alu0100832884@student05:~$ ls
+Descargas   Escritorio  icc2      Música      private  Público  test  upload
+Documentos  icc         Imágenes  Plantillas  public   TE       tmp   Vídeos
+alu0100832884@student05:~$ cdTE
+cdTE: no se encontró la orden
+alu0100832884@student05:~$ cd TE
+alu0100832884@student05:~/TE$ ls -la
+total 0
+drwxr-xr-x  5 alu0100832884 users 0 feb 14 08:52 .
+drwx--x--x 36 alu0100832884 users 0 feb 21 08:21 ..
+drwxr-xr-x  2 alu0100832884 users 0 feb  7 09:27 code
+drwxr-xr-x  4 alu0100832884 users 0 feb  7 10:08 prct.01
+drwxr-xr-x  5 alu0100832884 users 0 feb 14 10:00 prct02
+alu0100832884@student05:~/TE$ mkdir prct~
+alu0100832884@student05:~/TE$ mkdir prct3
+alu0100832884@student05:~/TE$ ls -la
+total 0
+drwxr-xr-x  7 alu0100832884 users 0 feb 21 08:35 .
+drwx--x--x 36 alu0100832884 users 0 feb 21 08:21 ..
+drwxr-xr-x  2 alu0100832884 users 0 feb  7 09:27 code
+drwxr-xr-x  2 alu0100832884 users 0 feb 21 08:35 prct~
+drwxr-xr-x  4 alu0100832884 users 0 feb  7 10:08 prct.01
+drwxr-xr-x  5 alu0100832884 users 0 feb 14 10:00 prct02
+drwxr-xr-x  2 alu0100832884 users 0 feb 21 08:35 prct3
+alu0100832884@student05:~/TE$ cd prct3
+alu0100832884@student05:~/TE/prct3$ mkdir src
+alu0100832884@student05:~/TE/prct3$ mkdir docs
+alu0100832884@student05:~/TE/prct3$ ls -la
+total 0
+drwxr-xr-x 4 alu0100832884 users 0 feb 21 08:36 .
+drwxr-xr-x 7 alu0100832884 users 0 feb 21 08:35 ..
+drwxr-xr-x 2 alu0100832884 users 0 feb 21 08:36 docs
+drwxr-xr-x 2 alu0100832884 users 0 feb 21 08:36 src
+alu0100832884@student05:~/TE/prct3$ 
+
+
